@@ -1,0 +1,44 @@
+<body>
+    <h1 type="text-dark" class="mx-auto text-center mt-2">L'AFFICHE DE CINECH'NORD</h1>
+    <div  class="container">
+        <div class="row">
+            <div class="col-4" *ngFor="let film of films; let i = index" [film]="film">
+                <div class="card mb-5 mt-5 bg-dark" style="width: 18rem;">
+                    <img class="card-img-top" src="{{film.poster}}" alt="Poster film">
+                    <div class="card-body">
+                        <h5 class="card-title text-light">{{film.titre}}</h5>
+                        <details>
+                            <summary class="text-light">Synopsis</summary>
+                            <p class="card-text text-light">{{film.synopsis}}</p>
+                        </details>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-dark text-light"><b>Réalisteur : </b>{{film.realisateur}}</li>
+                        <li class="list-group-item bg-dark text-light"><b>Date de sortie : </b>{{film.realisation}}</li>
+                        <li class="list-group-item bg-dark text-light"><b>Durée : </b>{{film.duree}} minutes</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="{{film.trailer}}" target = "_blank" class="card-link text-light">
+                            <button type="button" class="btn btn-outline-warning btn-lg btn-block">Bande Annonce</button>
+                        </a>
+                        <a [routerLink]="['/savoirPlus', i]" class="card-link text-light">
+                            <button type="button" class="btn btn-outline-warning btn-lg btn-block">En savoir + </button>
+                        </a>
+                        <a [routerLink]="['/reserver', i]" class="card-link text-light">
+                            <button type="button" class="btn btn-outline-info btn-lg btn-block">Réserver : places restantes ( {{film.places}} )</button>  
+                        </a>    
+                    </div>                                                             
+                    </div>
+                </div>
+
+            <!--<p-dialog header="Réservation" [(visible)]="display" [modal]="true" [style]="{width : '50vw'}" [baseZindex]="10000" no-repeat>
+                {{film.id}}
+                <input type="number" class="form-control" placeholder="Nombre de place :" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            </p-dialog>-->
+            </div>
+        </div>
+    <div class="text-center">
+    <button type="button" class="btn btn-dark mb-3 center" routerLink="/ajouterFilm">Ajouter un film</button>
+    </div>
+    
+</body>

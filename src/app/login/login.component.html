@@ -1,0 +1,30 @@
+<form [formGroup]="loginPage" *ngIf="!loggedIn">
+    <div class="login-container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" name="email" formControlName="email" required class="form-control">
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label>Mot de passe</label>
+                    <input type="password" name="pass" formControlName="mdp" required class="form-control">
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <button (click)="loginUser($event) " ng-disabled="myForm.$invalid"
+                        class="btn btn-success pull-right">Se connecter</button>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div ng-show="showError" class="alert alert-danger" [ngStyle]="invalidLogin">Identifiants Erronés</div>
+            </div>
+        </div>
+    </div>
+</form>

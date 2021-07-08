@@ -1,0 +1,202 @@
+{
+  "films": [
+    {
+      "id": 1,
+      "titre": "Dragon 3",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjIwMDIwNjAyOF5BMl5BanBnXkFtZTgwNDE1MDc2NTM@._V1_SX300.jpg",
+      "trailer": "https://www.youtube.com/watch?v=tEUFQ8mdzcg",
+      "synopsis": "Harold est maintenant le chef de Berk au côté d'Astrid et Krokmou, en tant que dragon, est devenu le leader de son espèce. Ils réalisent enfin leurs rêves de vivre en paix entre vikings et dragons. Mais lorsque l'apparition soudaine d'une Furie Eclair coïncide avec la plus grande menace que le village n'ait jamais connue, Harold et Krokmou sont forcés de quitter leur village pour un voyage dans un monde caché dont ils n'auraient jamais soupçonnés l'existence.",
+      "realisateur": "Dean DeBlois",
+      "acteurs": [
+        "Jay Baruchel",
+        "Cate Blanchett",
+        "Kristen Wiig",
+        "Gerard Butler",
+        "Jonah Hill"
+      ],
+      "realisation": "02/01/2019",
+      "duree": 104,
+      "places": 132
+    },
+    {
+      "id": 2,
+      "titre": "Alita: Battle Angel",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzVhMjcxYjYtOTVhOS00MzQ1LWFiNTAtZmY2ZmJjNjIxMjllXkEyXkFqcGdeQXVyNTc5OTMwOTQ@._V1_SX300.jpg",
+      "trailer": "https://www.youtube.com/watch?v=w7pYhpJaJW8",
+      "synopsis": "La jeune cyborg se réveille, réparée mais amnésique. Le docteur Ido la rebaptise Alita (du prénom de sa fille décédée) et lui fait découvrir le monde dans lequel ils survivent. Mais Alita se découvre des réflexes combatifs et une force surhumaine, veut toujours en savoir plus et aller plus loin.",
+      "realisateur": "Robert Rodriguez",
+      "acteurs": [
+        "Eiza González",
+        "Jennifer Connelly",
+        "Jackie Earle Haley"
+      ],
+      "realisation": "02/05/2019",
+      "duree": 132,
+      "places": 87
+    },
+    {
+      "id": 3,
+      "titre": "Glass",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTY1OTA2MjI5OV5BMl5BanBnXkFtZTgwNzkxMjU4NjM@._V1_SX300.jpg",
+      "trailer": "https://www.youtube.com/watch?v=95ghQs5AmNk",
+      "synopsis": "Peu de temps après les événements relatés dans Split, David Dunn, l'homme incassable, poursuit sa traque de La Bête, surnom donné à Kevin Crumb depuis qu'on le sait capable d'endosser 23 personnalités différentes. De son côté, le mystérieux homme souffrant du syndrome des os de verre Elijah Price suscite à nouveau l'intérêt des forces de l'ordre en affirmant détenir des informations capitales sur les deux hommes.",
+      "realisateur": "M. Night Shyamalan",
+      "acteurs": [
+        "Samuel L. Jackson",
+        "Anya Taylor-Joy",
+        "Bruce Willis",
+        "Gerard Butler",
+        "James McAvoy"
+      ],
+      "realisation": "01/18/2019",
+      "duree": 129,
+      "places": 182
+    },
+    {
+      "id": 4,
+      "titre": "Aquaman",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTk5ODg0OTU5M15BMl5BanBnXkFtZTgwMDQ3MDY3NjM@._V1_SX300.jpg",
+      "trailer": "https://www.youtube.com/watch?v=WDkg3h8PCVU",
+      "synopsis": "Les origines d'un héros malgré lui, dont le destin est d'unir deux mondes opposés, la terre et la mer. Cette histoire épique est celle d'un homme ordinaire destiné à devenir le roi des Sept Mers : Aquaman.",
+      "realisateur": "James Wan",
+      "acteurs": [
+        "Jason Momoa",
+        "Amber Heard",
+        "Nicole Kidman",
+        "Patrick Wilson",
+        "Willem Dafoe"
+      ],
+      "realisation": "12/21/2018",
+      "duree": 143,
+      "places": 46
+    },
+    {
+      "id": 5,
+      "titre": "Le Retour de Mary Poppins",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTk0NDIzMTA1MF5BMl5BanBnXkFtZTgwMzM0MTUzNjM@._V1_SX300.jpg",
+      "trailer": "https://www.youtube.com/watch?v=PzcaR1N0pTI",
+      "synopsis": "Michael Banks travaille à la banque où son père était employé, et il vit toujours au 17 allée des Cerisiers avec ses trois enfants, Annabel, Georgie et John, et leur gouvernante Ellen. Comme sa mère avant elle, Jane Banks se bat pour les droits des ouvriers et apporte son aide à la famille de Michael. Lorsque la famille subit une perte tragique, Mary Poppins réapparaît magiquement dans la vie de la famille.",
+      "realisateur": "Rob Marshall",
+      "acteurs": [
+        "Emily Blunt",
+        "Meryl Streep",
+        "Dick Van Dyke",
+        "Ben Whishaw",
+        "Emily Mortimer"
+      ],
+      "realisation": "12/21/2018",
+      "duree": 130,
+      "places": 214
+    },
+    {
+      "id": 6,
+      "titre": "Green Book",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjMyNzExNzQ5OV5BMl5BanBnXkFtZTgwNjM2MjIxNjM@._V1_SX300.jpg",
+      "trailer": "https://www.youtube.com/watch?v=QkZxoko_HC0",
+      "synopsis": "En 1962, alors que règne la ségrégation, Tony Lip, un videur italo-américain du Bronx, est engagé pour conduire et protéger le Dr Don Shirley, un pianiste noir de renommée mondiale, lors d'une tournée de concerts. Durant leur périple de Manhattan jusqu'au Sud profond, ils doivent se confronter aux humiliations, perceptions et persécutions, tout en devant trouver des établissements accueillant les personnes de couleurs.",
+      "realisateur": "Peter Farrelly",
+      "acteurs": [
+        "Mahershala Ali",
+        "Viggo Mortensen",
+        "Linda Cardellini"
+      ],
+      "realisation": "11/16/2018",
+      "duree": 130,
+      "places": 168
+    },
+    {
+      "id": 7,
+      "titre": "Ralph",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTYyNzEyNDAzOV5BMl5BanBnXkFtZTgwNTk3NDczNjM@._V1_SX300.jpg",
+      "trailer": "https://www.youtube.com/watch?v=T73h5bmD8Dc",
+      "synopsis": "Ralph quitte l'univers des jeux d'arcade pour s'aventurer dans le monde sans limite d'Internet à la recherche d'une pièce de rechange pour réparer la borne de Sugar Rush, le jeu vidéo dans lequel vit Vanellope. Rapidement dépassés par le monde qui les entoure, ils vont devoir demander de l'aide aux habitants d'Internet, les Netizens, afin de trouver leur chemin, et notamment à Yesss, l'algorithme principal, le c?ur et l'âme du site créateur de tendances BuzzzTube.",
+      "realisateur": "Phil Johnston",
+      "acteurs": [
+        "Alan Tudyk",
+        "John C. Reilly",
+        "Sarah Silverman"
+      ],
+      "realisation": "11/21/2018",
+      "duree": 112,
+      "places": 171
+    },
+    {
+      "id": 8,
+      "titre": "Escape Room",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjQ2NDMwMTY3MF5BMl5BanBnXkFtZTgwNDg5OTc1NjM@._V1_SX300.jpg",
+      "trailer": "https://www.youtube.com/watch?v=6dSKUoV0SNI",
+      "synopsis": "Six personnes se retrouvent dans une situation incontrôlable ou seule leur intelligence leur permettra de survivre.",
+      "realisateur": "Adam Robitel",
+      "acteurs": [
+        "Deborah Ann Woll",
+        "Taylor Russel"
+      ],
+      "realisation": "01/04/2019",
+      "duree": 99,
+      "places": 54
+    }
+  ],
+  "serie": [
+    {
+      "id": 1,
+      "titre": "Castle",
+      "poster": "http://images.affiches-et-posters.com//albums/3/3572/medium/poster-serie-castle-1388.jpg",
+      "trailer": "https://www.youtube.com/watch?v=fymbD5fOd6E",
+      "synopsis": "Richard « Rick » Castle, un célèbre écrivain new-yorkais de romans policiers, en a assez de narrer les exploits de son héros, l'agent secret Derrick Storm. À la surprise générale, il décide de le faire mourir dans son tout dernier livre.",
+      "realisateur": "Bryan Spicer",
+      "acteurs": [
+        "Stana Katic",
+        "Nathan Fillon",
+        "Seamus Dver",
+        "Susan Sullivan",
+        "Tamala Jones"
+      ],
+      "realisation": "09/05/2009"
+    },
+    {
+      "id": 2,
+      "titre": "Stranger Things",
+      "poster": "https://images-na.ssl-images-amazon.com/images/I/71n%2BCmrVcrL._AC_SL1200_.jpg",
+      "trailer": "https://www.youtube.com/watch?v=wQoHfKDncLU",
+      "synopsis": "A Hawkins, en 1983 dans l'Indiana. Lorsque Will Byers disparaît de son domicile, ses amis se lancent dans une recherche semée d'embûches pour le retrouver. Dans leur quête de réponses, les garçons rencontrent une étrange jeune fille en fuite.",
+      "realisateur": "Shawn Levy",
+      "acteurs": [
+        "Wiona Ryder",
+        "David Harbour",
+        "Finn Wolfhard",
+        "Millie Bobby Brown"
+      ],
+      "realisation": "15/07/2016"
+    },
+    {
+      "id": 3,
+      "titre": "The 100",
+      "poster": "https://m.media-amazon.com/images/I/71VpGAc6hpL._AC_SY879_.jpg",
+      "trailer": "https://www.youtube.com/watch?v=YIx4nbTSV_Q",
+      "synopsis": "Dans un futur lointain, 97 années après une guerre nucléaire qui a dévasté la surface de la Terre, les seuls humains ayant survécu vivent dans la flottille de stations spatiales en orbite appelée l'Arche. 100 mineurs condamnés pour divers crimes ou trahisons sont envoyés sur Terre pour tester les chances de survie.",
+      "realisateur": "Jason Rothenberg",
+      "acteurs": [
+        "Eliza Taylor-Cotter",
+        "Bob Morley",
+        "Marie Avgeropoulos",
+        "Lindsey Morgan",
+        "Richard Harmon"
+      ],
+      "realisation": "19/03/2014"
+    },
+    {
+      "id": 4,
+      "titre": "Chernobyl",
+      "poster": "https://fr.web.img5.acsta.net/r_1280_720/pictures/19/04/29/08/21/1692162.jpg?coixp=45&coiyp=73",
+      "trailer": "https://www.youtube.com/watch?v=skCiDK542aM",
+      "synopsis": "Chernobyl retrace l'une des pires catastrophes jamais provoquées par l'Homme, depuis son commencement jusqu'aux conséquences. En 5 épisodes, la série nous présente la succession de choix et d'événements qui ont menées à l'explosion d'un des réacteurs de la centrale nucléaire de Tchernobyl, située en Ukraine.",
+      "realisateur": "Craig Mazin",
+      "acteurs": [
+        "Jared Harris",
+        "Stellan Skarsgård",
+        "Emily Watsone"
+      ],
+      "realisation": "06/05/2019"
+    }
+  ]
+}

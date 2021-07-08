@@ -1,0 +1,51 @@
+<body>
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-6">
+                <img class="card-img-top" src="{{film.poster}}" alt="Poster film">
+            </div> 
+            <div class="col-6 border border-dark">
+                <div class="row infos">
+                    <div class="col-12">
+                        <h1 class="text-dark text-center mb-4">RÉSERVATION</h1>
+                        <h2 class="text-dark text-center">Titre: {{film.titre}}</h2>
+                    </div>
+                <form [formGroup] = "reservation">
+                    <div class="col-12">
+                        <label for="">Places :</label>
+                        <input formControlName="nombreTickets" class="form-control" type="number" placeholder="Nombres de places" aria-label="default input example">
+                    </div>
+                </form>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Tarifs : </label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                              <option selected>Enfant</option>
+                              <option value="Adulte">Adulte</option>
+                              <option value="Senior">Senior</option>
+                              <option value="Etudiante">Étudiant</option>
+                              <option value="Handicapé">Handicapé</option>
+                            </select>
+                          </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Horaires : </label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option selected >10:00</option>
+                                <option value="12">12:00</option>
+                                <option value="14">14:00</option>
+                                <option value="16">16:00</option>
+                                <option value="18">18:00</option>
+                                <option value="20">20:00</option>
+                            </select>
+                          </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-info btn-lg btn-block" type="button" (click)="reserver()">RÉSERVER</button>
+                    </div>
+                </div>
+            </div>   
+        </div>        
+    </div>
+</body>

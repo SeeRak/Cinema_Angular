@@ -1,0 +1,40 @@
+<div class="container">
+  <form [formGroup] = "nouveauFilm" (ngSubmit) = "onSubmit($event)" >
+    <div class="form-group">
+      <label>Titre du film: </label>
+      <input type="text" class="form-control" formControlName="titre">
+    </div>
+    <div class="form-group">
+      <label>Url de l'affiche: </label>
+      <input type="text" class="form-control" formControlName="poster">
+    </div>
+    <div class="form-group">
+      <label>URL du trailer:  </label>
+      <input type="text" class="form-control" formControlName="trailer">
+    </div>
+    <div class="form-group">
+      <label>Synopsis:  </label>
+      <input type="text" class="form-control" formControlName="synopsis">
+    </div>
+    <div class="form-group">
+      <label>Réalisateur:  </label>
+      <input type="text" class="form-control" formControlName="realisateur">
+    </div>
+    <div class="form-group">
+      <label>Date de sortie:  </label>
+      <input type="text" class="form-control" formControlName="realisation">
+    </div>
+    <div class="form-group">
+      <label>Durée:  </label>
+      <input type="text" class="form-control" formControlName="duree">
+    </div>
+    <div class="form-group">
+      <label>Places:  </label>
+      <input type="text" class="form-control" formControlName="places">
+    </div>
+    <div class="form-group">
+      <button type="submit" class="btn btn-dark mb-3 center">AJOUTER LE FILM</button>
+    </div>
+
+  </form>
+</div>

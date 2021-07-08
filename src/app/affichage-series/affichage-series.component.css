@@ -1,0 +1,8 @@
+.card-img-top {
+    max-height: 380px;
+    max-width: 375px;
+}
+#titre{
+    display: block;
+    margin : auto;
+}
